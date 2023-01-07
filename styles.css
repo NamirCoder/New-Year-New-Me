@@ -1,0 +1,254 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header-banner {
+    display: flex;
+    align-items: center;
+}
+
+.banner-card {
+    position: relative;
+}
+
+.banner-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.banner-text {
+    position: absolute;
+    text-align: end;
+    right: 160px;
+    color: black;
+    padding: 20px;
+}
+
+.banner-btn {
+    background: #00b4db;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #00b4db;
+    font-weight: 700;
+    font-size: 16px;
+    width: 156px;
+    height: 60px;
+    text-align: center;
+    color: white;
+
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.banner-text p {
+    margin-bottom: 5px;
+    color: #444343;
+}
+
+.failures {
+    margin: 145px;
+    display: flex;
+    align-items: center;
+}
+
+.failures-text {
+    margin-left: 100px;
+}
+
+.failures-text h2 {
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+
+.failures-text p {
+    color: #444343;
+}
+
+.failures-text li {
+    color: #444343;
+    list-style: none;
+}
+
+.failures-text li::before {
+    content: "\2714";
+    color: chartreuse;
+    margin-right: 5px;
+
+}
+
+
+.plans h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.myplans {
+    position: absolute;
+    width: 1142px;
+    height: 299.96px;
+    left: 120px;
+    top: 1792px;
+    display: flex;
+}
+
+.webdev {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.js {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.sh {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.ecommerce {
+    margin: 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.fitnessImg {
+    position: absolute;
+    width: 1140px;
+    height: 500px;
+    left: 160px;
+    top: 2216.3px;
+}
+
+.fitness h2 {
+    position: absolute;
+    width: 459px;
+    height: 94px;
+    left: 225px;
+    top: 2250px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #ffffff;
+}
+
+.fitness button {
+    position: absolute;
+    width: 160px;
+    height: 64px;
+    left: 225px;
+    top: 2393.3px;
+    background: #ffffff;
+    border-width: 5px;
+    border-radius: 5px;
+    border-color: #ffffff;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    color: #00b4db;
+}
+
+.section {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0px;
+    top: 2646px;
+    background: #151414;
+}
+
+.displayPart {
+    display: flex;
+}
+
+.future {
+    position: justify;
+    margin-top: 120px;
+    margin-left: 150px;
+    width: 485px;
+    height: 317px;
+    left: 800px;
+    top: 2900.3px;
+}
+
+.subscribe {
+    position: justify;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+
+.future h1 {
+    margin-bottom: 15px;
+    font-weight: bolder;
+    font-size: 40px;
+    color: white;
+}
+
+.future p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.mail {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.phone {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.subscribe {
+    font-weight: 600;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.subscribe h2 {
+    margin-bottom: 25px;
+}
+
+.subscribe input {
+    background: #151414;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: #ffffff;
+    width: 240px;
+    height: 40px;
+}
+
+.subscribe button {
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border-width: 2px;
+    border-radius: 5px;
+    width: 120px;
+    height: 44px;
+    color: #151414;
+    font-weight: bolder;
+}
